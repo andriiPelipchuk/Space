@@ -3,7 +3,7 @@
 public class PlayerMove : MonoBehaviour
 {
     private Rigidbody rb;
-    private int speed = 2;
+    private int speed = 3;
 
     private void Start()
     {

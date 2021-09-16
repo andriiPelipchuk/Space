@@ -30,7 +30,7 @@ public class EnemyShoting : MonoBehaviour
 
     private IEnumerator Recharge()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         recharge = true;
     }
 }
